@@ -58,12 +58,12 @@
                <nav class="au-breadcrumbs" aria-label="breadcrumb">
                   <ul class="au-link-list au-link-list--inline">
                      <li><a href="#">myCASA</a></li>
-                     <li>Service name</li>
+                     <li>Release of Flight Crew Licensing information</li>
                   </ul>
                </nav>
 			  <div class="casa-section">
                <header class="au-header" role="banner">
-                  <h1 class="break desktop au-header-heading">Service name</h1>
+                  <h1 class="break desktop au-header-heading">Release of Flight Crew Licensing (FCL) information</h1>
                   <a class="au-direction-link" href="javascript:history.back()">
 					<span class="au-direction-link__arrow au-direction-link__arrow--left" aria-hidden="true"></span>Back
 					</a>
@@ -73,37 +73,40 @@
         <div class="row">
                	<div class="col-xs-12 col-md-12 col-lg-6">
 
-                <h3>Service step name</h3>
+                <h3>Please note</h3>
                 <!-- the step of the process on this page -->
 
                 <!-- content starts here -->
                 <div class="au-callout">
-                  <p>Some information that is important to highlight</p>
+                  <p>This authority allows CASA to release the information you select below when it is requested by your nominated organistion(s). This is not an application for CASAto send information to them. The information will only be sent once it has been requested.</p>
+					<p> If you need verification of your flight crew licence to be sent to an aviation authority you must complete a CASA Form 452.</p>
                 </div>
-
-                <p>More general information</p>
 
 
                 <!-- form group for radio/checkboxes -->
                 <div class="au-form-group">
                   <fieldset class="au-fieldset">
                       <legend class="au-fieldset__legend">
-                          <h3 class="au-display-sm">What type of aircraft?</h3>
+                          <h3 class="au-display-sm">Selection</h3>
                           <span class="au-hint-text">This is some help text</span>
                       </legend>
-
-                      <div class="au-control-input au-control-input--block">
-                          <input class="au-control-input__input" type="radio" name="assessed-simulator"
-                                     id="assessed-aircraft" value="select-review">
-                              <label class="au-control-input__text" for="assessed-aircraft">Aeroplane</label>
-                      </div>
-
-                      <div class="au-control-input au-control-input--block">
-                          <input class="au-control-input__input" type="radio" name="assessed-simulator"
-                                     id="assessed-simulator" value="select-review-sim">
-                              <label class="au-control-input__text" for="assessed-simulator">Helicopter</label>
-                      </div>
-
+					  
+<div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="phone-cb-block">
+  <label class="au-control-input__text" for="phone-cb-block">My Australian Flight Crew Licence (including ratings)</label>
+</div>
+<div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="tablet-cb-block" checked>
+  <label class="au-control-input__text" for="tablet-cb-block">My ARN</label>
+</div>
+<div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="laptop-cb-block" checked>
+  <label class="au-control-input__text" for="laptop-cb-block">My current Aviation Medical Certificate including any medical information or documents held by CASA about me</label>
+</div>
+					  <div class="au-control-input au-control-input--block">
+  <input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="laptop-cb-block" checked>
+  <label class="au-control-input__text" for="laptop-cb-block">Details of any suspensions/cancellations of my Flight Crew Licence and any enforcement action brought against me by CASA</label>
+</div>
 
 
                   </fieldset>
@@ -113,10 +116,15 @@
 
                   <!-- form group for text and other input -->
                   <div class="au-form-group">
-                    <label class="au-label" for="name">Text input</label>
-                    <span class="au-hint-text">Please enter some text</span>
-                    <input type="text" class="au-text-input au-text-input--block" id="name"/>
-                 </div>
+                    <label class="au-label" for="name"</label>
+                   
+                   <label for="textarea">If other please specify</label>
+<textarea class="au-text-input au-text-input--block" name="textarea" id="textarea">
+  Value
+</textarea>
+					  
+					  
+					  
 
 
 
